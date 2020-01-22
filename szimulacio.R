@@ -11,9 +11,10 @@ z<-c(1)
 rn<-c(50)
 
 #a kritériumok eredményeinek mátrixainak definiálása:
-AICresults<-matrix(nrow=4,ncol=4,dimnames = list(c("q0","q1","q2","q3"), c("p0","p1","p2","p3")))
-BICresults<-matrix(nrow=4,ncol=4,dimnames = list(c("q0","q1","q2","q3"), c("p0","p1","p2","p3")))
+AICresults<-matrix(nrow=4,ncol=4,dimnames = list(c("p0","p1","p2","p3"), c("q0","q1","q2","q3")))
+BICresults<-matrix(nrow=4,ncol=4,dimnames = list(c("p0","p1","p2","p3"), c("q0","q1","q2","q3")))
 Results<-matrix(0,nrow=9,ncol=3) 
+colnames(Results)<-c("ARMA","AIC","BIC")
 
 #####################################
 
