@@ -20,56 +20,102 @@ Az eredmény táblázatok legvégén láthatóak. A szimulációt R-ben írtam m
 A táblázatokban található eredményekhez az elemzésben szereplő paraméterek és az alábbi konstansok szerepelnek:
 Az autoregresszív (AR) folyamat konstansai: 
 •	AR(1): 0.1
+
 •	AR(2): 0.1,0.1
+
 •	AR(1): 0.1,0.1,0.1
+
 A mozgóátlag (MA) folyamat konstansai: 
+
 •	MA(1): 0.1
+
 •	MA(2):, -0.3,0.3
+
 •	MA(3): -0.5,0.5,0.5
 
 ARMA  	AIC    	BIC
+
 11	  0.00	  0.00
+
 12	  0.04  	0.00
+
 13	  0.12  	0.04
+
 21	  0.02	  0.00
+
 22	  0.10  	0.04
+
 23  	0.10  	0.02
+
 31  	0.00	  0.00
+
 32  	0.06     0.00
+
 33  	0.04	   0.00
 
 2.	Táblázat
-Az autoregresszív (AR) folyamat konstansai: 
+
+Az autoregresszív (AR) folyamat konstansai:
+
 •	AR(1): 0.1
+
 •	AR(2): 0.1,0.1
+
 •	AR(1): 0.1,0.1,0.1
+
 A mozgóátlag (MA) folyamat konstansai: 
+
 •	MA(1): 0.1
+
 •	MA(2):, -0.3,0.3
+
 •	MA(3): -0.3,0.5,0.5
+
 ARMA
+
 ARMA	AIC	BIC
+
 11	0.0	0.2
+
 12	0.0	0.0
+
 13	0.0	0.0
+
 21	0.0	0.0
+
 22	0.0	0.0
+
 23	0.0	0.0
+
 31	0.2	0.0
+
 32	0.0	0.0
+
 33	0.0	0.0
 
+
 3.	Táblázat
+
 ARMA	AIC	BIC
+
 11	0.24	0.78
+
 12	0.28	0.38
+
 13	0.60	0.58
+
 21	0.04	0.04
+
 22	0.10	0.06
+
 23	0.12	0.02
+
 31	0.02	0.02
+
 32	0.02	0.00
+
 33	0.04	0.02
+
 
 
 
